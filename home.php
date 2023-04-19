@@ -13,7 +13,7 @@ if (!isset($_SESSION["loggedin"])) {
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="noindex, nofollow" />
     <meta name="author" content="John Spice">
-    <title></title>
+    <title>Email Viewer</title>
 
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="icon.ico">
@@ -27,8 +27,17 @@ if (!isset($_SESSION["loggedin"])) {
 </div>
 <div class="content">
     <div class="email_table">
-
+        <div class="email">
+            <div class="topper">
+                <p>bedrijfsnaam</p>
+                <p>sender_mail</p>
+                <p>time</p>
+                <a class="unfold">unfold</a>
+            </div>
+            <div class="hidden folder"></div>
+        </div>
     </div>
 </div>
+<script src="unfold.js"></script>
 </body>
 </html>
