@@ -32,9 +32,60 @@ if (!isset($_SESSION["loggedin"])) {
                 <p>bedrijfsnaam</p>
                 <p>sender_mail</p>
                 <p>time</p>
-                <a class="unfold">unfold</a>
+                <p class="indicator">❯</p>
             </div>
-            <div class="hidden folder"></div>
+            <div class="folder">
+                <div class="contact">
+                    <h2>Informatie:</h2>
+                    <div class="flex">
+                        <div>
+                            <h3>Naam:</h3>
+                            <p>John Spice</p>
+                            <h3>Telefoonnummer:</h3>
+                            <p>06 68654933</p>
+                        </div>
+                        <div>
+                            <h3>Type contact:</h3>
+                            <p>email_of_telefonisch</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="message">
+                    <h2>Bericht:</h2>
+                    <p>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="email">
+            <div class="topper">
+                <p>bedrijfsnaam</p>
+                <p>sender_mail</p>
+                <p>time</p>
+                <p class="indicator">❯</p>
+            </div>
+            <div class="folder">
+                <div class="contact">
+                    <h2>Informatie:</h2>
+                    <div class="flex">
+                        <div>
+                            <h3>Naam:</h3>
+                            <p>John Spice</p>
+                            <h3>Telefoonnummer:</h3>
+                            <p>06 68654933</p>
+                        </div>
+                        <div>
+                            <h3>Type contact:</h3>
+                            <p>email_of_telefonisch</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="message">
+                    <h2>Bericht:</h2>
+                    <p>
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
 </div>

@@ -1,6 +1,7 @@
 const folders = document.querySelectorAll(".email")
 
-
-function accordion() {
-
-}
+folders.forEach( unfold => {
+    unfold.querySelector(".topper").addEventListener("click", () => {
+        unfold.classList.toggle("active");
+    });
+});
