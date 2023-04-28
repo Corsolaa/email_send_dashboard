@@ -1,9 +1,7 @@
 <?php
 
-use JetBrains\PhpStorm\NoReturn;
-
 session_start();
-if (!isset($_SESSION["loggedin"])) {
+if (!isset($_SESSION["dashboard"])) {
     header('Location: index.html');
     exit();
 }
@@ -18,7 +16,7 @@ try {
     error_given("8008");
 }
 
-#[NoReturn] function error_given($errorCode): void
+function error_given($errorCode): void
 {
     echo "Please contact administration...";
     echo "<br>Error-code: ".$errorCode;
