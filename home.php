@@ -49,17 +49,16 @@ function get_sql_data(): array
     <meta name="description" content="description of the website.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="noindex, nofollow"/>
-    <meta name="author" content="John Spice">
+    <meta name="author" content="Bruno B">
 
-    <title>Email Viewer</title>
+    <title>Zakelijkverhuizen aanvragen</title>
 
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="icon.ico">
 </head>
 <body>
 <div class="header">
     <div class="inside">
-        <h1>Email Viewer</h1>
+        <h1>Zakelijkverhuizen Aanvragen</h1>
         <a class="button" href="logout.php">logout</a>
     </div>
 </div>
