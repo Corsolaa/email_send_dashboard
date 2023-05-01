@@ -87,8 +87,8 @@ function get_sql_data(): array
                 <div class="folder">
                     <div class="contact">
                         <h2>Informatie:</h2>
-                        <div class="flex">
-                            <div>
+                        <div class="flex info">
+                            <div class="personal">
                                 <h3>Naam:</h3>
                                 <p>'.$name.'</p>
                                 <h3>Telefoonnummer:</h3>
