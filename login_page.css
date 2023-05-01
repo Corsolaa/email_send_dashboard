@@ -1,0 +1,112 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    html {
+        scroll-behavior: smooth;
+    }
+}
+
+body {
+    min-height: 100vh;
+    color: var(--textColor);
+    font-family: sans-serif;
+
+    font-weight: bold;
+
+    background: var(--backgroundColor);
+}
+
+img, picture, svg, video {
+    display: block;
+    max-width: 100%;
+}
+
+label,
+button,
+select,
+summary,
+[type=radio],
+[type=submit],
+[type=checkbox] {
+    cursor: pointer;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.content {
+    max-width: 800px;
+    height: 100vh;
+
+    margin: auto;
+
+    display: flex;
+    justify-content: center;
+}
+
+.login {
+    height: fit-content;
+
+    margin-top: auto;
+    margin-bottom: auto;
+
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.pass_label {
+    position: relative;
+    width: 100%;
+}
+
+.pass_label:not(:placeholder-shown) + .input_label{
+    color: red;
+}
+
+#password {
+    width: 100%;
+
+    padding: 10px 19px;
+    border: 2px black solid;
+    border-radius: 13px;
+}
+
+.input_label {
+    position: absolute;
+    top: -8px;
+    left: 15px;
+    padding: 0 5px;
+    background: white;
+}
+
+.login h1 {
+    margin-bottom: 10px;
+    background: #003B88;
+    color: white;
+    padding: 25px;
+}
+
+.submit {
+    width: fit-content;
+
+    background: #F28C00FF;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border: 0;
+    border-radius: 25px;
+}
